@@ -1,0 +1,179 @@
+body{
+	margin:0 auto;
+}
+header{
+    background-color: #efefef;
+}
+nav{
+	width: 1250px;
+	padding: 30px 0;
+	margin: 0 auto;
+	
+}
+nav a{
+	text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.logo{
+	width: 120px;
+	display: inline-block;
+	vertical-align: middle;
+    margin: 0 auto;
+}
+
+.logo img{
+    width: 60px;
+}
+.logo p{
+	font-family: sans-serif;
+	font-size: 18px;
+    margin: 0;
+}
+.menu{
+	display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+.menu a{
+    margin-left: 150px;
+	/* font-size: bold; */
+	font-size: large;
+}
+.menu a:hover{
+	color: #FFA042;
+	transition: all 0.5s;
+}
+
+main{
+	display: block;
+	margin-bottom: 250px;
+}
+figure{
+	width: 1100px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+figure h1{
+	font-size: 65px;
+	font-family:cursive;
+	margin: 0;
+	margin-bottom: 10px;
+	line-height: 50px;
+}
+figure h2{
+	font-size: 35px;
+	font-family: cursive;
+	font-weight: 400;
+	margin: 0;
+}
+figure p{
+	margin: 0;
+	font-size: 21px;
+	color: #4F4F4F;
+	margin-bottom: 30px;
+	line-height: 35px;
+}
+figure img{
+	margin-left: 200px;
+	vertical-align: top;
+	clear: left;
+}
+figcaption{
+	width: 480px;
+	display: block;
+	float: left;
+}
+.try{
+	/* width: 322px;
+	margin: 0 auto; 
+	這也可水平置中,但寬度須設定與想置中區塊同寬,才可完全置中*/
+	text-align: center;
+}
+.button{
+	cursor: pointer;
+	padding: 20px 80px ;
+	border:3px solid white;
+	color:white;
+	font-size: 30px;
+	background:linear-gradient(0.4turn,	#FFAF60, 	#FFE4CA 50%, 	#FFE66F);
+	border-radius: 8px;	
+}
+.button:hover {
+	background: white;
+	color:#FFBB77 ;
+	border:3px solid #FFBB77;
+	transition: all 1s -0.2s;
+}
+.little{
+	width: 480px;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 25px;
+	margin:0 ;
+	padding-left: 3px;
+	margin-left: 79px;
+}
+.content{
+	width:1150px ;
+	margin: auto;
+	margin-bottom: 280px;
+}
+.content p{
+	margin-bottom: 40px;
+}
+.content h2{
+	font-size: 35px;
+	font-family: cursive;
+	font-weight: 400;
+}
+.content-p{
+	color: #4F4F4F;
+	font-size: 18px;
+	line-height:30px;
+	display: block;
+}
+.left{
+    width: 500px;
+    display: block;
+    float: left;
+}
+.right{
+    width: 500px;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+footer{
+	background-color: #efefef;
+}
+.footer-container{
+	width: 1250px;
+	margin: 0 auto;
+	padding: 30px;
+}
+footer .footer-container p{
+	float: left;
+	font-family: fantasy;
+	color: 	#4F4F4F;
+	display: block;
+	
+}
+
+.link{
+	font-size: 0;
+	text-align: right;
+	margin-right: 60px;
+}
+.link a{
+	text-decoration: none;
+	color: black;
+	font-size: 45px;
+	margin-left: 30px;
+}
+.link a:hover{
+	color:#FFA042;
+	transition: all 0.5s;
+}
